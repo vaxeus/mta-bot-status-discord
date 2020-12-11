@@ -1,13 +1,13 @@
-const Discord = require("discord.js");
-const Gamedig = require("gamedig");
+const Discord = require("discord.js"); // by : zef
+const Gamedig = require("gamedig"); // by : zef
 
 module.exports = {
-  name: "status",
+  name: "status", // by : zef
   run(client, message, args) {
     Gamedig.query({
-	type: "mtasa",
-      host: "178.32.127.216",
-      port: "22003",
+	type: "mtasa", // by : zef
+      host: "178.32.127.216", // عنوان الخادم حطه هنا
+      port: "22003", // بورت الخادم حطه هنا
     })
       .then((state) => {
         if (state["raw"]["numplayers"] === 0) {
