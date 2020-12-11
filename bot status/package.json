@@ -1,0 +1,18 @@
+{
+  "name": "bot status by ZeF",
+  "version": "1.0.0",
+  "description": "All rights reserved : https://discord.gg/g46wMWfjcB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "gamedig": "^2.0.23"
+  }
+}
