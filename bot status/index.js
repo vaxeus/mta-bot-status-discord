@@ -14,28 +14,28 @@ const Gamedig = require("gamedig");
 let playersSize;
 
 
-for (const file of commandFiles) {
-  const command = require(`./commands/${file}`);
+for (const file of commandFiles) { 
+  const command = require(`./commands/${file}`); // by : zef
 
-  client.commands.set(command.name, command);
+  client.commands.set(command.name, command); // by : zef
 }
 
 client.on("ready", () =>{
-    console.log(`Logged in as ${client.user.tag}!`);
-	client.user.setActivity('Developer : ! Pé , mm0.#0007', { type: 'PLAYING' })
+    console.log(`Logged in as ${client.user.tag}!`); // by : zef
+	client.user.setActivity('Developer : ! Pé , mm0.#0007', { type: 'PLAYING' }) // by : zef
  });
 
 client.on("message", (message) => {
-  if (!message.content.startsWith(prefix) || message.author.bot) return;
-  const args = message.content.slice(prefix.length).trim().split(/ +/);
-  const command = args.shift().toLowerCase();
-  if (!client.commands.has(command)) return;
+  if (!message.content.startsWith(prefix) || message.author.bot) return; // by : zef
+  const args = message.content.slice(prefix.length).trim().split(/ +/); // by : zef
+  const command = args.shift().toLowerCase(); // by : zef
+  if (!client.commands.has(command)) return; // by : zef
 
   try {
-    client.commands.get(command).run(client, message, args);
+    client.commands.get(command).run(client, message, args); // by : zef
   } catch (error) {
-    console.error(error);
-    message.reply("حدث خطأ أثناء محاولة تشغيل هذا الأمر!");
+    console.error(error); // by : zef
+    message.reply("حدث خطأ أثناء محاولة تشغيل هذا الأمر!"); // by : zef
   }
 });
 
