@@ -27,11 +27,11 @@ node index.js
 
 command/status.js
 ```
-    Gamedig.query({
-	type: "mtasa",
-      host: "178.32.127.216", // عنوان الخادم
-      port: "22003", // بورت حق الخادم
-    })
+Gamedig.query({
+    type: "mtasa",
+    host: "178.32.127.216", // عنوان الخادم
+    port: "22003", // بورت حق الخادم
+})
 ```
 # All rights reserved by `natural.#4171`
 
