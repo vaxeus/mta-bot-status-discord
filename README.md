@@ -29,6 +29,6 @@ command/status.js
       port: "22003", // بورت حق الخادم
     })
 
-# All rights reserved by ! Pé , mm0.#0007
+# All rights reserved by `natural.#4171`
 
-https://discord.gg/8GxbhvgFbn
+https://discord.gg/ez7wy2EUdG
