@@ -1,10 +1,14 @@
 # mta-bot-status-discord
+
 بوت عرض معلومات سيرفر ل لعبة mta
 https://cdn.discordapp.com/attachments/746051407836217474/786896575142035526/unknown.png
+
 # How to configure bot?
 
-> npm i discord.js
-> npm i gamedig
+```
+npm i discord.js
+npm i gamedig
+```
 
 # How to link bot to file?
 
